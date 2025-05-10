@@ -1,1 +1,1 @@
-# SQC-FLMGAN-test
+# SQC-FLMGAN
