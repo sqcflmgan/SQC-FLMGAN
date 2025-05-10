@@ -1,0 +1,22 @@
+{
+"main" :
+[
+{
+	"dataset" : ["fashionmnist"],
+	"net" : ["cnn"],
+	"iterations" : [1000],
+	"n_clients" : [10],
+	"participation_rate" : [1],
+	"classes_per_client" : [10],
+	"batch_size" : [32],
+	"balancedness" : [1],
+	"momentum" : [0.9],
+    "aggregation" : ["mean"],
+	"compression" : [["none", {}]],
+	"log_frequency" : [1],
+	"log_path" : ["results/trash/"]
+}
+]
+}
+
+
